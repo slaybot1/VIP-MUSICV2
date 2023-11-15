@@ -33,7 +33,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/THE-VIP-BOY-OP/VIP-MUSICV2",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -60,7 +60,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @StringFatherBot on Telegram
+# Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
