@@ -242,6 +242,9 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
         ],
+     ]
+    return buttons
+
         
 ## Queue Markup
 
@@ -284,7 +287,4 @@ def queue_markup(_, videoid, chat_id):
         ],
     ]
 
-    return buttons
-
-    ]
     return buttons
