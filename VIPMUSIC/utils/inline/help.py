@@ -88,6 +88,13 @@ def help_back_markup(_):
                     text=_["BACK_BUTTON"],
                     callback_data=f"settings_back_helper",
                 ),
+                InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"], callback_data=f"close"
+                ),
+                InlineKeyboardButton(
+                    text="★ ɱᴏʀε ★", callback_data="help_callback hb13"
+                )
+
             ]
         ]
     )
@@ -98,8 +105,8 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_4"],
-                url=f"https://t.me/{app.username}?start=help",
+                text="🎭 𝐇𝐄𝐋𝐏 🎭",
+                callback_data="settings_back_helper",
             ),
         ],
     ]
